@@ -20,43 +20,9 @@
 
         <link rel="stylesheet" href="./css/styles.css"/>
 
-        <script>
-            // Set the date and time for the end of the countdown
-            const endTime = new Date('2024-02-29T00:00:00').getTime();
-          
-            // Update the countdown every second
-            const timerInterval = setInterval(updateTimer, 1000);
-          
-            function updateTimer() {
-              const now = new Date().getTime();
-              const distance = endTime - now;
-          
-              // Calculate hours, minutes, and seconds
-              const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-              const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-              const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-          
-              // Display the countdown in the HTML
-              document.getElementById('hours').innerText = formatTime(hours);
-              document.getElementById('minutes').innerText = formatTime(minutes);
-              document.getElementById('seconds').innerText = formatTime(seconds);
-          
-              // If the countdown is over, stop the interval
-              if (distance < 0) {
-                clearInterval(timerInterval);
-                document.getElementById('timer').innerText = 'Timer expired';
-              }
-            }
-          
-            // Function to add leading zeros to time values less than 10
-            function formatTime(time) {
-              return time < 10 ? '0' + time : time;
-            }
-          
-            // Initial call to update the timer
-            updateTimer();
-          </script>
-
+   
+           <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+      
     </head>
 
     <body>
@@ -101,7 +67,7 @@
         </div>
 
         <center>
-            <div class="d-flex justify-content-end">
+            <div class="d-flex justify-content-end text-white   ">
                 <div class="dropdown open">
                     <button
                         class="btn btn-secondary dropdown-toggle"
@@ -122,8 +88,11 @@
                 </div>
                 
             </div>
-        <iframe width="860" height="415" src="https://www.youtube.com/embed/NWnBxQjssvQ?si=679NoiR1xctAztRC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </center><div class="text-white p-2">
+            <div class="container">
+            <div class="embed-responsive embed-responsive-16by9 m-1">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NWnBxQjssvQ" allowfullscreen></iframe>
+              </div>   </center><div class="text-white p-2">
+      
             <h1>How to Become a Web Developer</h1>
 
             <ol>
