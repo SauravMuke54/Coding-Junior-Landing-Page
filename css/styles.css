@@ -1,0 +1,68 @@
+
+  .navbar-bg {
+    background-color: transparent !important;
+    color: white;
+    
+  }
+
+  .home{
+    max-height: 45rem;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #FF6AC1, #4A90E2, #934DFF, #00FFFF);
+   
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .courses{
+    max-height: 100rem;
+    max-width: 100%;
+    margin: 0;
+    padding: 2rem;
+    background: linear-gradient(135deg, #FF6AC1, #4A90E2, #934DFF, #00FFFF);
+   
+   
+   
+  }
+
+  .joining{
+    max-height: 100rem;
+    max-width: 100%;
+    margin: 0;
+    padding: 2rem;
+    background: linear-gradient(135deg, #FF6AC1, #4A90E2, #934DFF, #00FFFF);
+   
+   
+   
+  }
+  footer{
+    margin: 0;
+    background: linear-gradient(135deg, #FF6AC1, #4A90E2, #934DFF, #00FFFF);
+   
+  }
+
+
+  .edu-img{
+    max-height: 15rem;
+  }
+
+  body{
+ font-family: initial;
+  }
+
+  .img-code{
+    max-width: 10rem;
+  }
+
+  .course-web{
+    max-height: 1000rem;
+    max-width: 100%;
+    margin: 0;
+    padding: 2rem;
+    background: linear-gradient(135deg, #FF6AC1, #4A90E2, #934DFF, #00FFFF);
+   
+   
+  }
